@@ -54,7 +54,7 @@ if __name__ == '__main__':
     # Data setting
     parser.add_argument('--dataset', type=str, default='NIPS_TS_Water')
     parser.add_argument('--win_size', type=int, default=100)
-    parser.add_argument('--data_path', type=str, default='../data/NIPS_TS_Water/')
+    parser.add_argument('--data_path', type=str, default='./data/NIPS_TS_GECCO/')
 
     # Model setting
     parser.add_argument('--input_c', type=int, default=9)
