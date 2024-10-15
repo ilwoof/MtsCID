@@ -17,4 +17,4 @@ python main.py --run_times 5 --anomaly_ratio 0.1 --dataset SWaT --data_path ./da
 python main.py --run_times 5 --anomaly_ratio 0.9 --dataset NIPS_TS_Swan  --data_path ./data/NIPS_TS_Swan/  --input_c 38 --d_model 38 --output_c 38
 
 # NIPS_TS_Water
-python main.py --run_times 5 --anomaly_ratio 1.0 --dataset NIPS_TS_Water --data_path ../data/NIPS_TS_GECCO/ --input_c 9 --d_model 9 --output_c 9
+python main.py --run_times 5 --anomaly_ratio 1.0 --dataset NIPS_TS_Water --data_path ./data/NIPS_TS_GECCO/ --input_c 9 --d_model 9 --output_c 9
