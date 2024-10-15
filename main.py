@@ -84,7 +84,7 @@ if __name__ == '__main__':
     parser.add_argument('--model_save_path', type=str, default='checkpoints')
 
     # Training setting
-    parser.add_argument('--num_epochs', type=int, default=2)
+    parser.add_argument('--num_epochs', type=int, default=20)
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--patience', type=int, default=10)
     parser.add_argument('--peak_lr', type=float, default=2e-3)
