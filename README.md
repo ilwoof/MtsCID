@@ -13,13 +13,13 @@ Multivariate time series anomaly detection is essential for failure management i
 
 ```
 ├─data  # Data files.
-└─src├─data_factory      # data preprocessing, data loader, etc.
-     ├─metrics           # evaluation metrics computing
-     ├─models            # Model, network modules, and loss design
-     ├─utils             # utilities
-     ├─main.py           # MtsCID main entrance.
-     ├─checkpoint        # model checkpoint
-     └─results           # expeirmental results.        
+├─data_factory      # data preprocessing, data loader, etc.
+├─metrics           # evaluation metrics computing
+├─models            # Model, network modules, and loss design
+├─utils             # utilities
+├─main.py           # MtsCID main entrance.
+├─checkpoints       # model checkpoint
+└─results           # expeirmental results.        
 
 ```
 
