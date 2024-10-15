@@ -9,12 +9,38 @@ Multivariate time series anomaly detection is essential for failure management i
 <img src=".\figures\framework_overview.png" height = "250" alt="" align=center />
 </p>
 
-## Main Result
-In the main experiment, we evaluate the performance of MtsCID on multivariate time series anomaly detection tasks by comparing it with 9 models.
-**MtsCID achieves SOTA in multivariate time series anomaly detection tasks.**
-<p align="center">
-<img src=".\png\MtsCID_results.png" height = "450" alt="" align=center />
-</p>
+## Project Structure
+
+```
+├─data  # Data files.
+└─src├─data_factory      # data preprocessing, data loader, etc.
+     ├─metrics           # evaluation metrics computing
+     ├─models            # Model, network modules, and loss design
+     ├─utils             # utilities
+     ├─main.py           # MtsCID main entrance.
+     ├─checkpoint        # model checkpoint
+     └─results           # expeirmental results.        
+
+```
+
+## Environment
+
+**Key Packages:**
+
+PyTorch v1.11.0 + (cu11.3)
+
+python v3.8.6
+
+scikit-learn
+
+
+## Data
+
+In this repository, the GECCO dataset under 100 steps setting is proposed for a quick hands-up.
+
+## Usage
+
+The simplest way of running LogSD is to run `python main.py`.
 
 ## Citation
 If you find this repo useful, please cite our paper. 
