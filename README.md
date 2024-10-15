@@ -36,11 +36,11 @@ scikit-learn
 
 ## Data
 
-In this repository, the GECCO dataset under 100 steps setting is proposed for a quick hands-up.
+In this repository, the GECCO dataset under 100 time steps setting is proposed for a quick hands-up.
 
 ## Usage
 
-The simplest way of running LogSD is to run `python main.py`.
+The simplest way of running MtsCID is to run `python main.py`.
 
 ## Citation
 If you find this repo useful, please cite our paper. 
