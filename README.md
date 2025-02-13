@@ -44,3 +44,10 @@ The simplest way of running MtsCID is to run `python main.py`.
 
 ## Citation
 If you find this repo useful, please cite our paper. 
+@article{xie2025multivariate,
+  title={Multivariate Time Series Anomaly Detection by Capturing Coarse-Grained Intra-and Inter-Variate Dependencies},
+  author={Xie, Yongzheng and Zhang, Hongyu and Babar, Muhammad Ali},
+  journal={arXiv preprint arXiv:2501.16364},
+  year={2025}
+}
+Get
